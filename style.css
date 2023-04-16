@@ -1,0 +1,116 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+hr.line {
+    border: 1px solid black;
+    width: 85%;
+}
+
+.container {
+    border: solid;
+    border-radius: 10px;
+    width: 35vw;
+    height: 60vh;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+header {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* border: solid; */
+}
+
+header h1 {
+    margin-top: -10px;
+}
+
+.menu h4 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    text-align: center;
+    /* border: solid; */
+    font-size: larger;
+}
+
+.button {
+    background-color: white;
+    border: grey solid;
+    border-radius: 10px;
+    width: 7vw;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover, .daftar input:hover, .tambah a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.footer {
+    margin-top: 35px;
+    text-align: center;
+    font-size: small;
+}
+
+table {
+    margin: auto;
+}
+
+fieldset {
+    border: solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 21vw;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.daftar {
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+}
+
+.daftar input, .tambah a {
+    background-color: white;
+    border: grey solid;
+    border-radius: 10px;
+    width: 7vw;
+    color: black;
+    padding: 6px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+nav, .total{
+    text-align: center;
+}
+
+thead tr th {
+    padding: 20px;
+}
